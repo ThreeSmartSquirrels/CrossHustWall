@@ -5,7 +5,7 @@ import time
 from libhustpass import main
 import sys
 
-ticket = main.doLogin(os.environ['USERNAME'],os.environ['PASSWORD'],"http://access.hust.edu.cn/IDKJ-P/P/studentApi")
+ticket = main.doLogin(os.environ['M202073001'],os.environ['200031'],"http://access.hust.edu.cn/IDKJ-P/P/studentApi")
 print(os.environ['USERNAME'],os.environ['PASSWORD'])
 #print(ticket)
 
